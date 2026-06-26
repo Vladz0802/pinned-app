@@ -1,4 +1,4 @@
-const CACHE = 'pinned-v2';
+const CACHE = 'pinned-v3';
 const ASSETS = [
   './',
   './index.html',
