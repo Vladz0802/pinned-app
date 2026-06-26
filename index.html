@@ -1724,7 +1724,7 @@ function setVh() {
 }
 
 function setStatusBarPadding() {
-  if (isStandalone && isAndroid) {
+ if (isAndroid) {
     const statusBarHeight = window.screen.height - window.screen.availHeight;
     const sat = statusBarHeight > 0 ? statusBarHeight : 28;
     document.documentElement.style.setProperty('--sat', sat + 'px');
