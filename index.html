@@ -397,7 +397,13 @@ body{background:var(--pearl);font-family:'Outfit',-apple-system,BlinkMacSystemFo
 .ni{border-radius:18px;transition:background .18s ease,transform .18s ease;}
 .ni:active{transform:scale(.96);}
 .ni.act{background:rgba(37,99,235,.12);}
-.home-header,.exp-header,.tr-header{background:#0a1628;padding-bottom:18px;padding-top:44px;}
+.home-header,
+.exp-header,
+.tr-header{
+    background:#0a1628;
+    padding-bottom:18px;
+    padding-top:calc(20px + var(--sat));
+}
 .home-header::after,.exp-header::before,.tr-header::before{display:none;}
 .hdr-title,.exp-title,.tr-title,.region-hero-title,.hero-name,.sec-hdr-t,.tc-name,.biz-sheet-name{font-family:'Outfit',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:0;}
 .hdr-title,.exp-title,.tr-title{font-size:30px;font-weight:800;line-height:1.05;}
