@@ -1,0 +1,27 @@
+{
+  "name": "Pinned. — Philippine Culture Explorer",
+  "short_name": "Pinned.",
+  "description": "Explore the beauty, culture, and destinations the Philippines has to offer.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "education", "lifestyle"],
+  "lang": "en-PH"
+}
